@@ -1,0 +1,116 @@
+<ion-grid class="ion-hide-sm-down ion-md-container ion-padding">
+  <ion-row class="o-footer-nav ">
+    <ion-col size="12" size-md="4">
+      <ul class="footer-widget footer-text-left">
+        <li class="flex">
+          <a>HOME</a>
+          <a>ABOUT US</a>
+          <a>CONTACT</a>
+          <a>HOME</a>
+        </li>
+      </ul>
+    </ion-col>
+    <ion-col size="12" size-md="4">
+      <ul class="footer-widget  ion-text-center footer-text-right">
+        <li class="flex">
+          <a class="custom-a">FOLLOW US: </a>
+          <i (click)="open(facebook)" class="fab icon fa-facebook"></i>
+          <i (click)="open(instagram)" class="fab icon fa-instagram"></i>
+          <i (click)="open(google)" class="fab icon fa-google"></i>
+        </li>
+      </ul>
+    </ion-col>
+
+    <ion-col size="12" size-md="4">
+      <ul class="footer-widget footer-text-right ion-text-right">
+        <li>
+          <span class="rights">
+            @ {{ dateNow | date: "yyyy" }} Arena All Rights Reserved
+          </span>
+        </li>
+      </ul>
+    </ion-col>
+  </ion-row>
+
+  <ion-row class="b-top">
+    <ion-col size="12" size-md="6">
+      <ul class="footer-widget footer-text-left">
+        <li class="flex">
+          <i class="fab icon-lg fa-cc-paypal"></i>
+          <i class="fab icon-lg fa-cc-visa"></i>
+          <i class="fab icon-lg fa-cc-mastercard"></i>
+        </li>
+      </ul>
+    </ion-col>
+    <ion-col size="12" size-md="6">
+      <ul class="footer-widget footer-text-right">
+        <li class="flex ">
+          <a>TERMS OF SERVICE </a>
+          <a>PRIVACY POLICY</a>
+        </li>
+      </ul>
+    </ion-col>
+  </ion-row>
+</ion-grid>
+
+<ion-grid class="ion-hide-md-up ion-md-container ion-padding">
+  <ion-row class="o-footer-nav ">
+    <ion-col size="12" size-md="4">
+      <ul class="footer-widget footer-text-left">
+        <li class="ion-text-left">
+          <a (click)="show = !show"
+            >HOME <i *ngIf="show" class="fal fa-angle-down"></i
+            ><i *ngIf="!show" class="fal fa-angle-up"></i
+          ></a>
+          <a *ngIf="!show">ABOUT US</a>
+          <a *ngIf="!show">CONTACT</a>
+          <a *ngIf="!show">HOME</a>
+        </li>
+      </ul>
+    </ion-col>
+    <ion-col size="12" size-md="4">
+      <ul class="footer-widget  ion-text-center footer-text-right">
+        <li class="flex-2 ion-text-left">
+          <a class="custom-a">FOLLOW US: </a>
+          <i (click)="open(facebook)" class="fab icon fa-facebook"></i>
+          <i (click)="open(instagram)" class="fab icon fa-instagram"></i>
+          <i (click)="open(google)" class="fab icon fa-google"></i>
+        </li>
+      </ul>
+    </ion-col>
+
+    <ion-col size="12" size-md="4">
+      <ul class="footer-widget footer-text-right ion-text-right">
+        <li class="ion-text-left ion-margin-end">
+          <a>TERMS OF SERVICE </a>
+        </li>
+      </ul>
+    </ion-col>
+    <ion-col size="12" size-md="4">
+      <ul class="footer-widget footer-text-right ion-text-right">
+        <li class="ion-text-left">
+          <a>PRIVACY POLICY </a>
+        </li>
+      </ul>
+    </ion-col>
+  </ion-row>
+
+  <ion-row class="b-top">
+    <ion-col size="12" size-md="6">
+      <ul class="footer-widget footer-text-left">
+        <li class="flex">
+          <i class="fab icon-lg fa-cc-paypal"></i>
+          <i class="fab icon-lg fa-cc-visa"></i>
+          <i class="fab icon-lg fa-cc-mastercard"></i>
+        </li>
+      </ul>
+    </ion-col>
+    <ion-col size="12" size-md="6">
+      <ul class="footer-widget footer-text-right">
+        <span class="rights">
+          @ {{ dateNow | date: "yyyy" }} Arena All Rights Reserved
+        </span>
+      </ul>
+    </ion-col>
+  </ion-row>
+</ion-grid> 

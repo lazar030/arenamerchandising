@@ -1,0 +1,7 @@
+{
+  "name": "arena-merch",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}

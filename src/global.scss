@@ -1,0 +1,137 @@
+/* Core CSS required for Ionic components to work properly */
+@import "~@ionic/angular/css/core.css";
+
+/* Basic CSS for apps built with Ionic */
+@import "~@ionic/angular/css/normalize.css";
+@import "~@ionic/angular/css/structure.css";
+@import "~@ionic/angular/css/typography.css";
+@import "~@ionic/angular/css/display.css";
+
+/* Optional CSS utils that can be commented out */
+@import "~@ionic/angular/css/padding.css";
+@import "~@ionic/angular/css/float-elements.css";
+@import "~@ionic/angular/css/text-alignment.css";
+@import "~@ionic/angular/css/text-transformation.css";
+@import "~@ionic/angular/css/flex-utils.css";
+
+/* -- Imported Fonts
+-------------------------------------- -- */
+@import url("https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i|Mina:400,700|Titillium+Web:200,200i,300,300i,400,400i,600,600i,700,700i,900");
+/* -- Custom Animations
+------------------------------------------  -- */
+
+/* -- Typography
+-------------------------------------- -- */
+
+body {
+  font-size: 15px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "proxima-nova", "sans-serif";
+  font-weight: 600;
+  margin-bottom: 1.4rem;
+}
+
+.header-font {
+  font-family: "proxima-nova", "sans-serif";
+}
+
+h1 {
+  font-size: 4.2rem;
+  line-height: 6rem;
+  font-weight: 600;
+  margin-bottom: 2rem;
+}
+
+h2 {
+  font-size: 3.6rem;
+  line-height: 5rem;
+}
+
+h3 {
+  font-size: 3rem;
+  line-height: 4.2rem;
+}
+
+h4 {
+  font-size: 2.4rem;
+  line-height: 3.4rem;
+}
+
+h5 {
+  font-size: 1.8rem;
+  line-height: 2.6rem;
+}
+
+h6 {
+  font-size: 1.6rem;
+  line-height: 2.2rem;
+}
+
+p {
+  font-size: 15px;
+  line-height: 28px;
+  font-weight: 400;
+  margin-bottom: 2rem;
+}
+
+ul {
+  margin-bottom: 2rem;
+}
+
+ul li {
+  line-height: 28px;
+}
+
+html {
+  font-size: 10px;
+}
+
+a,
+button {
+  transition: all 0.3s;
+}
+
+a:focus,
+button:focus {
+  outline: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+h2.section-title {
+  width: 100%;
+  margin-bottom: 1.1rem;
+}
+
+p.section-subtitle {
+  width: 100%;
+  font-size: 1.8rem;
+  line-height: 3rem;
+  margin-bottom: 62px;
+}
+
+.social-icons a {
+  font-size: 15px;
+  line-height: 1;
+  color: #4039d4;
+  margin-right: 2rem;
+}
+
+.social-icons a:last-child {
+  margin-right: 0;
+}
+
+.social-icons a:hover {
+  color: #47d2f4;
+  text-decoration: none;
+}

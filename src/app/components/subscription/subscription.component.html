@@ -1,0 +1,59 @@
+<div>
+  <ion-grid class="ion-md-container">
+    <ion-row>
+      <ion-col size="12" size-md="5">
+        <ion-card>
+          <ion-card-header>
+            <h2 class="dark">Subscribe to Our Newsletter</h2>
+          </ion-card-header>
+
+          <ion-card-content>
+            Keep close to Nature's heart... and break clear away, once in
+            awhile, and climb a mountain or spend a week in the woods. Wash your
+            spirit clean. Keep close to Nature's heart... and break clear away,
+            once in awhile, and climb a mountain or spend a week in the woods.
+            Wash your spirit clean.
+          </ion-card-content>
+        </ion-card>
+      </ion-col>
+      <ion-col size="12" size-md="5" offset-md="2">
+        <ion-grid>
+          <ion-row class="ion-md-top">
+            <ion-col size="12">
+              <ion-input
+                class="custom-input"
+                type="email"
+                name="email"
+                required
+                (ionChange)="onChange(email)"
+                [(ngModel)]="email"
+                inputmode="email"
+                [pattern]="regExp"
+                placeholder="Email Address"
+              ></ion-input>
+            </ion-col>
+            <ion-col size="12">
+              <!-- <ion-button
+                expand="full"
+                class="ion-show"
+                color="primary"
+                [disabled]="!isEmail"
+                (click)="onSubmit(email)"
+                >SUBSCRIBE</ion-button
+              > -->
+              <ion-button
+                class="custom-input"
+                color="primary"
+                size="large"
+                expand="full"
+                [disabled]="!isEmail"
+                (click)="onSubmit(email)"
+                >SUBSCRIBE</ion-button
+              >
+            </ion-col>
+          </ion-row>
+        </ion-grid>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</div>

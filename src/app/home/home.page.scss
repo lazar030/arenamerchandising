@@ -1,0 +1,115 @@
+$primary: #ad4c98;
+
+.sc-ion-card-ios-h,
+.sc-ion-card-md-h {
+  margin-left: unset;
+  margin-right: unset;
+  -webkit-margin-start: 10px;
+  margin-inline-start: 10px;
+  -webkit-margin-end: 10px;
+  margin-inline-end: 10px;
+  box-shadow: none;
+}
+
+.ion-custom-container {
+  background: #fafbfc;
+  .sc-ion-card-ios-h,
+  .sc-ion-card-md-h {
+    margin-left: unset;
+    margin-right: unset;
+    -webkit-margin-start: 10px;
+    margin-inline-start: 10px;
+    -webkit-margin-end: 10px;
+    margin-inline-end: 10px;
+    box-shadow: none;
+    background: #fff;
+    min-height: 315px;
+  }
+}
+
+.card-content-md p {
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+.custom-card {
+  background: rgb(31, 30, 30);
+}
+
+.medium {
+  color: #989aa2;
+}
+
+.icon {
+  width: 60px;
+  margin: 0 auto;
+  font-size: 60px;
+  color: $primary;
+}
+
+ion-card-title {
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.custom-padding {
+  padding: 0 100px;
+}
+
+.card-col {
+  cursor: pointer;
+}
+
+.b-bottom {
+  padding: 3.8rem 0 2.3rem;
+  border-bottom: 1px solid #fafbfc;
+}
+
+.b-top {
+  padding: 3.8rem 0 2.3rem;
+  border-top: 1px solid #fafbfc;
+}
+
+.icon-sz {
+  font-size: 50px;
+  color: #000;
+}
+
+.rainbow {
+  text-align: center;
+  background-image: url(../../assets/images/hero-texture-small.png);
+  color: transparent;
+  -webkit-font-smoothing: antialiased;
+  background-clip: text;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-line-seight: 0.8;
+  -webkit-background-align: center;
+  background-size: auto 140px;
+}
+
+.desc {
+  font-size: 18px;
+  padding-bottom: 50px;
+}
+
+@media screen and (min-width: 768px) {
+  .ion-md-container {
+    width: 80%;
+    min-width: 768px;
+    max-width: 1440px;
+    margin: 50px auto 100px;
+  }
+}
+
+// @media screen and (max-width: 575px) {
+//   .ion-md-container {
+//     display: none;
+//   }
+// }
+
+.fad::after {
+  color: #000;
+  opacity: 1 !important;
+}

@@ -1,0 +1,187 @@
+$color-base: #fff;
+$color-text: #222;
+$color-accent: desaturate(navy, 80%);
+
+ion-header {
+  --ion-background-color: #fff;
+}
+.telephone {
+  margin: 5px 5px 0 0;
+  font-size: 25px;
+}
+
+.icon {
+  font-size: 50px !important;
+}
+
+.logo {
+  padding: 20px 10px;
+  max-width: 205px;
+}
+
+.icon-img {
+  width: 25px;
+  margin-right: 5px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.my-custom-menu {
+  --width: 500px;
+}
+
+.link {
+  font-size: 20px;
+}
+
+.call {
+  // color: $primary;
+  font-weight: 600;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+a {
+  color: $color-accent;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+
+nav {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  height: 80px;
+  background: $color-base;
+  box-shadow: 0 0px 9px 4px rgba(#000, 0.1), 0 -5px 2px 2px rgba(#000, 0.1);
+  z-index: 1000;
+  min-width: 580px;
+
+  .logo {
+    position: relative;
+    float: left;
+    height: 100%;
+    padding: 0 0 0 5px;
+    max-width: 260;
+  }
+
+  .links {
+    float: right;
+    position: relative;
+
+    li {
+      float: left;
+      list-style: none;
+      position: relative;
+      margin: 25px 0px;
+      white-space: nowrap;
+      display: inline-block;
+
+      & > a {
+        position: relative;
+        display: flex;
+        padding: 0;
+        line-height: 30px;
+        height: 30px;
+
+        &:hover {
+          background: transparent;
+          border-radius: 2px;
+        }
+
+        &[class^="trigger-"] {
+          padding-right: 25px;
+        }
+
+        .arrow {
+          position: absolute;
+          width: 10px;
+          height: 10px;
+          top: 35%;
+          text-align: center;
+          right: 10px;
+          border-width: 5px 5px 0 5px;
+          border-style: solid;
+          border-color: rgba(#000, 0.3) transparent;
+
+          &:after {
+            content: "";
+            border-left: 1px solid rgba(#000, 0.15);
+            top: -10px;
+            left: -15px;
+            position: absolute;
+            height: 15px;
+          }
+        }
+      }
+    }
+  }
+  .go-link {
+    margin-right: 15px;
+    // color: $primary;
+    text-decoration: none;
+  }
+
+  .go-link:hover {
+    color: #a7a7a8;
+    text-decoration: underline;
+  }
+}
+
+.trigger-drop-eda346:hover {
+  color: #eda346;
+  text-decoration: underline;
+}
+.trigger-drop-e3686f:hover {
+  color: #e3686f;
+  text-decoration: underline;
+}
+.trigger-drop-54b9a9:hover {
+  color: #54b9a9;
+  text-decoration: underline;
+}
+.trigger-drop-6693e0:hover {
+  color: #6693e0;
+  text-decoration: underline;
+}
+
+@media screen and(max-width: 1050px) {
+  .hide-md {
+    display: none;
+  }
+}
+
+@media screen and(min-width: 1051px) {
+  .show-md {
+    display: none;
+  }
+}

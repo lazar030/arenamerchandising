@@ -1,0 +1,59 @@
+.sc-ion-card-ios-h,
+.sc-ion-card-md-h {
+  margin-left: unset;
+  margin-right: unset;
+  -webkit-margin-start: 10px;
+  margin-inline-start: 10px;
+  -webkit-margin-end: 10px;
+  margin-inline-end: 10px;
+  box-shadow: none;
+}
+
+.custom-title {
+  // font-size: 40px;
+  font-weight: 900;
+}
+
+.custom-title-2 {
+  // font-size: 30px;
+  font-weight: 900;
+}
+
+.bold {
+  font-weight: 900;
+}
+
+.b-bottom {
+  padding: 3.8rem 0 2.3rem;
+  border-bottom: 1px solid #fafbfc;
+}
+
+.b-top {
+  padding: 3.8rem 0 2.3rem;
+  border-top: 1px solid #fafbfc;
+}
+ion-thumbnail.avt {
+  --border-radius: 50%;
+}
+
+ion-button {
+  height: 50px;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+}
+
+.badge {
+  font-size: 20px;
+}
+.ion-md-container {
+  margin: 20px auto;
+}
+
+@media screen and (min-width: 768px) {
+  .ion-md-container {
+    margin: 100px auto;
+    width: 80%;
+    min-width: 768px;
+    max-width: 1440px;
+  }
+}

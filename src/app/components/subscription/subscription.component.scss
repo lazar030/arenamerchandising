@@ -1,0 +1,70 @@
+div {
+  background: #fafbfc;
+}
+
+.ion-md-container {
+  padding-bottom: 50px;
+}
+
+.custom {
+  margin-left: 0;
+  padding-left: 0;
+}
+
+.dark {
+  color: #000;
+}
+
+.bold {
+  font-weight: 900;
+}
+
+ion-input {
+  --background: #fff;
+  --placeholder-opacity: 0.8;
+  --padding-start: 10px;
+}
+
+.custom-input {
+  height: 60px;
+}
+
+.sc-ion-card-ios-h,
+.sc-ion-card-md-h {
+  margin-left: unset;
+  margin-right: unset;
+  -webkit-margin-start: 10px;
+  margin-inline-start: 10px;
+  -webkit-margin-end: 10px;
+  margin-inline-end: 10px;
+  box-shadow: none;
+}
+
+ion-button {
+  height: 50px;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+}
+
+.b-bottom {
+  padding: 3.8rem 0 2.3rem;
+  border-bottom: 1px solid #fafbfc;
+}
+
+.b-top {
+  padding: 3.8rem 0 2.3rem;
+  border-top: 1px solid #fafbfc;
+}
+@media screen and (min-width: 768px) {
+  .ion-md-container {
+    margin: 0 auto;
+    padding: 100px 0;
+    width: 80%;
+    min-width: 768px;
+    max-width: 1440px;
+  }
+
+  .ion-md-top {
+    margin-top: 50px;
+  }
+}
